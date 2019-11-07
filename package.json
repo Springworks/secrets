@@ -1,0 +1,20 @@
+{
+  "name": "secrets",
+  "version": "1.0.0",
+  "description": "Github action for fetching secrets from AWS Secrets Manager and print them to .txt files for each key in that secret.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Springworks/secrets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Springworks/secrets/issues"
+  },
+  "homepage": "https://github.com/Springworks/secrets#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "aws-sdk": "^2.566.0"
+  }
+}

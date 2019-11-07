@@ -1,0 +1,9 @@
+name: 'Secrets'
+description: 'Github action for fetching secrets from AWS Secrets Manager and print them to .txt files for each key.'
+inputs:
+  secret-name:
+    description: 'Name of secret to get from AWS Secrets Manager'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
