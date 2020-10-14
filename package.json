@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/Springworks/secrets#readme",
   "dependencies": {
-    "@actions/core": "^1.2.0",
+    "@actions/core": "^1.2.6",
     "aws-sdk": "^2.566.0"
   }
 }
